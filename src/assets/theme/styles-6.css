@@ -44,7 +44,7 @@ p {
 }
 .wrapper {
   background: #4B6A78;
-  max-width: 960px;
+  max-width: 970px;
   margin: 0 auto;
   position: relative;
   -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
@@ -55,7 +55,7 @@ p {
   background: #4B6A78;
   position: absolute;
   right: 0;
-  width: 240px;
+  width: 250px;
   height: 100%;
   min-height: 800px;
   color: #fff;
@@ -120,6 +120,13 @@ p {
 .sidebar-wrapper .education-container .item:last-child {
   margin-bottom: 0;
 }
+.sidebar-wrapper .education-container .major {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
 .sidebar-wrapper .education-container .meta {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 500;
@@ -156,6 +163,15 @@ p {
   background: #fff;
   padding: 60px;
   padding-right: 300px;
+}
+.shortcut {
+	background: #fff;
+	height: 20px;
+	padding-top: 10px;
+	padding-left: 180px;
+}
+.anchor {
+	font-size: 16px;
 }
 .main-wrapper .section-title {
   text-transform: uppercase;
@@ -201,19 +217,46 @@ p {
 .main-wrapper .job-title {
   color: #3F4650;
   font-size: 16px;
-  margin-top: 0;
+  margin-top: 10px;
   margin-bottom: 0;
   font-weight: 500;
 }
 .main-wrapper .time {
   position: absolute;
   right: 0;
-  top: 0;
+  top: 10px;
   color: #97AAC3;
 }
 .main-wrapper .company {
   margin-bottom: 10px;
   color: #97AAC3;
+}
+.main-wrapper .presentation {
+  margin-bottom: 10px;
+  color: #97AAC3;
+}
+.main-wrapper .presentation-title {
+	height: 18px;
+  color: #3F4650;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+.main-wrapper .paper {
+  margin-bottom: 10px;
+  color: #97AAC3;
+}
+.main-wrapper .paper-title {
+	height: 18px;
+  color: #3F4650;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+.category-item {
+	padding-top: 5px;
 }
 .main-wrapper .project-title {
   font-size: 16px;
@@ -222,10 +265,10 @@ p {
   margin-bottom: 5px;
 }
 .main-wrapper .projects-section .intro {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 .main-wrapper .projects-section .item {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 .skillset .item {
   margin-bottom: 15px;

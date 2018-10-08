@@ -6,6 +6,7 @@ export default class EducationDetails extends Component {
     return (
       <div className="item" key={`education_item_${i}`}>
         <h4 className="degree">{item.degree}</h4>
+				<h4 className="major">{item.major}</h4>
         <h5 className="meta">{item.school}</h5>
         <div className="time">{item.date}</div>
       </div>

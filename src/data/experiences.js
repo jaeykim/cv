@@ -4,37 +4,29 @@ export const experiences = {
   description: null,
   list: [
     {
-      title: 'Lead Software Developer',
-      company: 'JotForm',
-      description: 'I\'m working as a lead developer at JotForm Source team. We are creating some amazing features for JotForm!',
-      companyLink: 'http://jotform.com',
-      companyShortDetail: '',
-      date: '2017.10 - Present'
+      title: 'Leader and Founder',
+      company: 'Decipher',
+      description: 'I have founded and led Decipher, the best Blockchain Research Group in Korea. And I am leading the blockchain core team to design a blockchain for fast payment',
+      companyLink: 'http://decipher.ac',
+      companyShortDetail: 'Blockchain Research Group',
+      date: 'Mar. 2018 - Present'
     },
     {
-      title: 'Software Developer',
-      company: 'JotForm',
-      description: 'I\'m using ReactJS and working as a front-end developer to develop new features for JotForm.',
-      companyLink: 'http://jotform.com',
-      companyShortDetail: '',
-      date: '2016.8 - 2017.10'
-    },
-    {
-      title: 'Full-Stack Developer',
-      company: 'YD Software',
-      description: 'I was using ASP.Net MVC Framework with N Tier Architecture to develop management systems, learning management systems & big data projects. And i was developing Android / IOS applications using Xamarin or NDK. You can see projects that I have completed for YD Software <a href=\'#projects\'>below.</a>',
-      companyLink: 'http://ydyazilim.com',
-      companyShortDetail: 'ANKARA METU Technopolis(ODTU Teknokent)',
-      date: '2012 - 2016.8'
+      title: 'Software Developer & Photographer',
+      company: 'APP.Erest',
+      description: 'I developed client application for iPhone using Objective-C.',
+      companyLink: '#',
+      companyShortDetail: 'A company serving a coupon service with mobile applications',
+      date: 'Jul. 2012 - Aug. 2013'
     },
     {
       title: 'Intern',
-      company: 'YD Software',
-      description: 'I was warming up with a Learning Management System including desktop and web apps.',
-      companyLink: 'http://ydyazilim.com',
-      companyShortDetail: 'ANKARA METU Technopolis(ODTU Teknokent)',
-      date: '2012.06 - 2012.10'
-    }
+      company: 'Anipark',
+      description: 'I developed a custom animation tool for Unity3D.',
+      companyLink: 'http://company.netmarble.com/studio/list/npark',
+      companyShortDetail: 'A game company having specialty in sports games',
+      date: 'Dec. 2011 - Feb. 2012'
+    },
   ]
 };
 

@@ -4,7 +4,7 @@ export const publications = {
 	description: null,
 	list: [
 		{
-			title: 'Blockchain-based Edge Computing for Deep Neural Networks',
+			title: 'Blockchain-based Edge Computing for Deep Neural Network Applications',
 			authors: 'Jae-Yun Kim, Soo-Mook Moon',
 			description: 'Deep neural network (DNN) applications require heavy computations, so an embedded device with limited hardware such as an IoT device cannot run the apps by itself. One solution is to offload DNN computations from the client device to nearby edge servers to request an execution of the DNN computations with their powerful hardware. However, there are several issues with the solution. One is an availability issue that how we can provide the edge server with some incentives to run the client’ apps. The other is a scalability issue that how we can use more servers when there are more DNN requests. Finally, there is an integrity issue that how the client can trust the result coming from anonymous edge servers. We think the blockchain technology can solve these issues to make edge computing more practical. This paper proposes a novel architecture for DNN edge computing based on the blockchain technology. Existing blockchains such as Ethereum do not support execution of a complex program, so we propose a modified blockchain structure and protocol to overcome the limitation.',
 			publish: 'INTESA in ESWEEK 2018',

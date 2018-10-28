@@ -13,7 +13,7 @@ export const experiences = {
     },
     {
       title: 'Software Developer & Photographer',
-      company: 'APP.Erest',
+      company: 'TEAM AppErest',
       description: 'I developed client application for iPhone using Objective-C.',
       companyLink: '#',
       companyShortDetail: 'A company serving a coupon service with mobile applications',

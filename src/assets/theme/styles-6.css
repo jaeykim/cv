@@ -215,6 +215,7 @@ p {
   margin-bottom: 2px;
 }
 .main-wrapper .job-title {
+	height: 18px;
   color: #3F4650;
   font-size: 16px;
   margin-top: 10px;
@@ -258,11 +259,17 @@ p {
 .category-item {
 	padding-top: 5px;
 }
+.main-wrapper .project {
+	margin-bottom: 10px;
+  color: #97AAC3;
+}
 .main-wrapper .project-title {
+	height: 18px;
+  color: #3F4650;
   font-size: 16px;
-  font-weight: 400;
-  margin-top: 0;
-  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-weight: 500;
 }
 .main-wrapper .projects-section .intro {
   margin-bottom: 10px;

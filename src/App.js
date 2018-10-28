@@ -69,7 +69,8 @@ export default class CV extends Component {
 					<a className="anchor" href="#experiences">Experiences</a> |
 					<a className="anchor" href="#presentations"> Presentations</a> |
 					<a className="anchor" href="#publications"> Publications</a> |
-					<a className="anchor" href="#projects"> Projects</a>
+					<a className="anchor" href="#projects"> Projects</a> |
+					<a className="anchor" href="#tags"> Skills</a>
 				</div>
 
         <div className="main-wrapper">

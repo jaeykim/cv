@@ -11,6 +11,13 @@ export const presentations = {
 			date: 'Nov. 2018'
 		},
 		{
+			title: '(개발자를 위한) 쉽게 설명하는 블록체인 AtoZ',
+			institute: '제주창조경제혁신센터',
+			eventName: 'Jeju Blockchain Class',
+			eventLink: 'http://jjbw.io/#section3',
+			date: 'Oct. 2018'
+		},
+		{
 			title: '블록체인 디자인을 위한 코어 기술 분석',
 			institute: '한국정보과학회',
 			eventName: 'iTIP 2018',
@@ -39,7 +46,14 @@ export const presentations = {
 			date: 'Aug. 2018'
 		},
 		{
-			title: 'TPS metric and the limitation of PoW blockchain',
+			title: '블록체인이 가져올 새로운 패러다임',
+			institute: 'AI NETWORK',
+			eventName: 'AI X Blockchain Techtalk for Developers',
+			eventLink: 'http://meetup.ainetwork.ai',
+			date: 'Aug. 2018'
+		},
+		{
+			title: 'TPS metric and limitation of PoW blockchain',
 			institute: 'Decipher',
 			eventName: 'Decipher\'s 1st Open Seminar',
 			eventLink: '#',

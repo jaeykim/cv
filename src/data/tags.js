@@ -1,5 +1,5 @@
 export const tags = {
-  sectionTitle: '',
+  sectionTitle: 'Skills',
   icon: null,
   list: [
   	'Javascript',
@@ -10,7 +10,8 @@ export const tags = {
   	'Python',
   	'C++',
   	'Blockchain',
-  	'Deep Learning'
+  	'Deep Learning',
+  	'Unity3D'
   ]
 };
 

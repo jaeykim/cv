@@ -4,6 +4,7 @@ import Section from './shared/section';
 
 export default class Projects extends Component {
   renderListItem(item, i) {
+  	/*
     return (
       <div className="item" key={`project_item_${i}`}>
         {this.renderProjectTitle(item)}
@@ -15,7 +16,23 @@ export default class Projects extends Component {
         />
       </div>
     );
+    */
+    return (
+      <div className="item" key={`exp_item_${i}`}>
+        <div className="meta">
+          <div className="upper-row">
+            <h3 className="project-title">{item.title}</h3>
+            <div className="time">{item.date}</div>
+          </div>
+          {this.renderProjectSection(item.collaborators, item.link, item.institute)}
+        </div>
+        <div className="details">
+          <p dangerouslySetInnerHTML={{ __html: item.description }} />
+        </div>
+      </div>
+    );
   }
+	/*
   renderProjectTitle(project) {
     let inner = project.title;
     if (project.url) {
@@ -30,6 +47,7 @@ export default class Projects extends Component {
         <p dangerouslySetInnerHTML={{ __html: description }} />
       </div>);
   }
+  */
   renderCategory(category) {
     return (
       <div className="category-item">
@@ -41,6 +59,13 @@ export default class Projects extends Component {
       </div>
     );
   }
+  renderProjectSection(collaborators, link, institute) {
+    if (collaborators && link) {
+      return (<div className="project"> <a href={link} target="_blank">{institute}</a> {collaborators}</div>);
+    }
+    return null;
+  }
+  /*
   render() {
     const {
       icon,
@@ -66,6 +91,26 @@ export default class Projects extends Component {
       </Section>
     );
   }
+  */
+  render() {
+    const { icon, sectionTitle, categories, description, list } = this.props;
+    return (
+      <Section
+        className="projects-section"
+        icon={icon || 'archive'}
+        title={sectionTitle || 'Projects'}
+        id="projects"
+      >
+        <div className="projects">
+          {
+            categories.map((c) => {
+              return this.renderCategory(c);
+            })
+          }
+        </div>
+      </Section>
+    );
+	}
 }
 
 Projects.propTypes = {

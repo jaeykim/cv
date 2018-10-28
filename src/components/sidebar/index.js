@@ -38,12 +38,15 @@ export default class Sidebar extends Component {
   renderContactDetails() {
     return (<ContactDetails
       mail={this.props.mail}
+      mail1={this.props.mail1}
+      mail2={this.props.mail2}
       phoneNumber={this.props.phoneNumber}
       website={this.props.website}
       linkedin={this.props.linkedin}
       github={this.props.github}
       title={this.props.title}
       twitter={this.props.twitter}
+      facebook={this.props.facebook}
     />);
   }
 
@@ -65,11 +68,14 @@ Sidebar.propTypes = {
   title: PropTypes.string.isRequired,
   imagePath: PropTypes.string,
   mail: PropTypes.string.isRequired,
+  mail1: PropTypes.string,
+  mail2: PropTypes.string,
   phoneNumber: PropTypes.string,
   website: PropTypes.string,
   linkedin: PropTypes.string,
   github: PropTypes.string,
   twitter: PropTypes.string,
+  facebook: PropTypes.string,
   educationDetails: PropTypes.shape().isRequired,
   languages: PropTypes.shape().isRequired,
   interests: PropTypes.shape().isRequired,
@@ -81,5 +87,6 @@ Sidebar.defaultProps = {
   website: null,
   linkedin: null,
   github: null,
-  twitter: null
+  twitter: null,
+  facebook: null
 };

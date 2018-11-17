@@ -8,7 +8,7 @@ export default class Presentations extends Component {
       <div className="item" key={`exp_item_${i}`}>
         <div className="meta">
           <div className="upper-row">
-            <h3 className="presentation-title">{item.title}</h3>
+						{this.renderPresentationData(item.dataLink, item.title)}
             <div className="time">{item.date}</div>
           </div>
           {this.renderPresentationSection(item.institute, item.eventLink, item.eventName)}
@@ -19,10 +19,18 @@ export default class Presentations extends Component {
       </div>
     );
   }
+  renderPresentationData(dataLink, title){
+		if (dataLink) {
+			return (<a href={dataLink} target="_blank"><h3 className="presentation-title">{title}</h3></a>);
+		}
+		return (<h3 className="presentation-title">{title}</h3>);
+	}
   renderPresentationSection(institute, eventLink, eventName) {
-    if (institute && eventLink) {
+    if (eventLink) {
       return (<div className="presentation"> <a href={eventLink} target="_blank">{eventName}</a> {institute}</div>);
-    }
+    } else {
+      return (<div className="presentation"> <a href='' target="_blank">{eventName}</a> {institute}</div>);
+		}
     return null;
   }
   render() {
